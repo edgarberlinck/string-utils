@@ -3,14 +3,14 @@
 # String Utils
 Collection of alot of string ultilities which I use all the time.
 
-## noAccentNoCase (string)
+## noSlug (string)
 
 Return a new string without special characters and with lower case
 
 ### Example
 
 ```javascript
-console.log(noAccentNoCase('Capitão'))
+console.log(noSlug('Capitão'))
 >> Should return 'capitao'
 ```
 
