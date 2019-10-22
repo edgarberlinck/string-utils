@@ -19,13 +19,13 @@ console.log(noAccentNoCase('Capitão'))
 Return true if *target* contains all words in *term*
 
 ```javascript
-console.log('Edgar Muniz Berlinck', 'Berlinck')
+console.log(includeAll('Edgar Muniz Berlinck', 'Berlinck'))
 >> Should return *true*
-console.log('Edgar Muniz Berlinck', 'Muniz Berlinck')
+console.log(includeAll('Edgar Muniz Berlinck', 'Muniz Berlinck'))
 >> Should return *true*
-console.log('Edgar Muniz Berlinck', 'Edgar Berlinck')
+console.log(includeAll('Edgar Muniz Berlinck', 'Edgar Berlinck'))
 >> Should return *true*
-console.log('Edgar Muniz Berlinck', 'Gostosão Berlinck')
+console.log(includeAll('Edgar Muniz Berlinck', 'Gostosão Berlinck'))
 >> Should return *false*
 ```
 
