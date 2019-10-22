@@ -1,11 +1,12 @@
 {
-  "name": "string-utils",
+  "name": "@edgarberlinck/string-utils",
   "version": "1.0.0",
   "description": "Collection of alot of string ultilities which I use all the time.",
   "main": "index.js",
   "repository": "https://github.com/edgarberlinck/string-utils.git",
   "author": "Edgar Muniz Berlinck <edgar.vv@gmail.com>",
   "license": "MIT",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
