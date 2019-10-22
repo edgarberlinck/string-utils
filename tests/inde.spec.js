@@ -1,11 +1,11 @@
 /* eslint-disable no-undef */
-import { noAccentNoCase, includeAll } from '../src'
+import { noSlug, includeAll } from '../src'
 
-describe('Testing noAccentNoCase function', () => {
+describe('Testing noSlug function', () => {
   it('Should remove all special characters', () => {
-    expect(noAccentNoCase('Ação')).toBe('acao')
-    expect(noAccentNoCase('Repolho')).toBe('repolho')
-    expect(noAccentNoCase('José das Couves')).toBe('jose das couves')
+    expect(noSlug('Ação')).toBe('acao')
+    expect(noSlug('Repolho')).toBe('repolho')
+    expect(noSlug('José das Couves')).toBe('jose das couves')
   })
 })
 

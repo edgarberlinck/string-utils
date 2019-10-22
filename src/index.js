@@ -1,4 +1,4 @@
-const noAccentNoCase = value =>
+const noSlug = value =>
   value
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
@@ -9,10 +9,10 @@ const includeAll = (word, query) => {
   query
     .split(' ')
     .forEach(term =>
-      match.push(noAccentNoCase(word).includes(noAccentNoCase(term)))
+      match.push(noSlug(word).includes(noSlug(term)))
     )
   const reducer = (result, current) => result && current
   return match.reduce(reducer)
 }
 
-export { noAccentNoCase, includeAll }
+export { noSlug, includeAll }
