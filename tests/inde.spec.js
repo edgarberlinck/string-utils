@@ -6,6 +6,7 @@ describe('Testing noSlug function', () => {
     expect(noSlug('Ação')).toBe('acao')
     expect(noSlug('Repolho')).toBe('repolho')
     expect(noSlug('José das Couves')).toBe('jose das couves')
+    expect(noSlug('ESPAÑOL')).toBe('espanol')
   })
 })
 
