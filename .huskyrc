@@ -1,0 +1,6 @@
+{
+  "husky": {
+    "pre-commit": "yarn eslint src && yarn test",
+    "pre-push": "yarn eslint src && yarn test"
+  }
+}
