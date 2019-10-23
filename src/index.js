@@ -9,4 +9,9 @@ const includeAll = (word, query) => {
   return query.split(' ').every(term => word.includes(noSlug(term)))
 }
 
-export { noSlug, includeAll }
+const onlyLetters = value =>
+  value
+    .replace(/[^A-Za-z]/g, '')
+    .toLowerCase()
+
+export { noSlug, includeAll, onlyLetters }
