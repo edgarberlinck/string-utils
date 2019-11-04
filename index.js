@@ -1,3 +1,3 @@
-import { noAccentNoCase, includeAll } from './src'
+import { noSlug, includeAll, onlyLetters } from './src'
 
-export { noAccentNoCase, includeAll }
+export { noSlug, includeAll, onlyLetters }

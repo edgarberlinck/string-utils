@@ -1,6 +1,6 @@
 {
   "name": "@edgarberlinck/string-utils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Collection of alot of string ultilities which I use all the time.",
   "main": "index.js",
   "repository": "https://github.com/edgarberlinck/string-utils.git",
