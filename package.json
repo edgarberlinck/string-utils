@@ -6,7 +6,7 @@
   "repository": "https://github.com/edgarberlinck/string-utils.git",
   "author": "Edgar Muniz Berlinck <edgar.vv@gmail.com>",
   "license": "MIT",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "private": false,
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
